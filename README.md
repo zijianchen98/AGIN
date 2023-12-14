@@ -46,8 +46,9 @@ _Do AI-generated Images look natural?_
 ## Introduction
 The proposed AGIN includes two perspectives for naturalness assessment: technical (T) and rationality (R), each of which contains 5 dimensions:
 
-- For technical perspective (T), we consider specific image attributes _Luminance, Contrast, Detail, Blur, Artifacts_.
-- For rationality perspective (R), we
+- For technical perspective (T), we consider specific image attributes (_**Luminance**, **Contrast**_) that have high correlations of naturalness. _**Detail**, **Blur**_ and a common issue introduced by generative models _(**Artifacts**)_ are also considered.
+- For rationality perspective (R), we contribute 5 new factors: _**Existence**_, _**Color**_, _**Layout**_, _**Context**_, and _**Sensory Clarity**_ to evaluate the rationality of AI-generated images.
+- Please refer to our paper for more detailed explaination.
 
 
 ## Database Downloads
