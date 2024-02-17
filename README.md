@@ -31,7 +31,7 @@ _Do AI-generated Images look natural?_
 <sup>*</sup>Corresponding author. 
    </div>
 
-<a href="https://arxiv.org/abs/2312.05476"><strong>Paper</strong></a> | <a href="https://huggingface.co/datasets/CCZZJJ/AGIN"><strong>Hugging Face</strong></a>
+<a href="https://arxiv.org/abs/2312.05476"><strong>Paper</strong></a>
 
 <div style="width: 80%; text-align:center; margin:auto;">
 <img style="width:100%" src="intro.jpg"></div>
