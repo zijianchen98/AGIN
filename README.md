@@ -54,7 +54,7 @@ The proposed AGIN includes two perspectives for naturalness assessment: technica
 ## Database Downloads
 OneDrive and Baidu Netdisk are available now!
 
-* OneDrive: [downloading link](https://1drv.ms/u/s!AgLwywHLkSEMk1Jmi_PLz-JPnaxq?e=qLx41h)
+* OneDrive: [downloading link](https://1drv.ms/u/c/0c2191cb01cbf002/EQLwywHLkSEggAzSCQAAAAABnn9ICRkAnM9YuSRtAWoDLQ?e=Jidlia)
 * Baidu Netdisk: [downloading link](https://pan.baidu.com/s/1DWZEMH6fPndaD9UhJbylMQ) (password: riha)
 
 
