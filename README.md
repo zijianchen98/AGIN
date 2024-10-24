@@ -61,6 +61,12 @@ OneDrive and Baidu Netdisk are available now!
 ## Collecting AI-generated Images
 The adopted image generation methods and related works are listed in another repository [Awesome-AI-Generated-Image-Tasks](https://github.com/zijianchen98/Awesome-AI-Generated-Image-Tasks)
 
+## Contact
+
+Please contact the first author of this paper for queries.
+
+- Zijian Chen, `zijian.chen@sjtu.edu.cn`
+
 ## Citation
 Please feel free to cite our paper if you use the AGIN database in your research:
 ```
