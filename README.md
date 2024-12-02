@@ -4,6 +4,7 @@
 <a href="https://github.com/zijianchen98/AGIN"><img src="https://visitor-badge.laobi.icu/badge?page_id=zijianchen98/AGIN"/></a>
     <a href="https://github.com/zijianchen98/AGIN"><img src="https://img.shields.io/github/stars/zijianchen98/AGIN"/></a>
     <a href="http://arxiv.org/abs/2312.05476"><img src="https://img.shields.io/badge/Arxiv-2312:05476-red"/></a>
+    <a href="https://ieeexplore.ieee.org/document/10771738"><img src="https://img.shields.io/badge/journal-paper-red"/></a>
     <a href="https://github.com/zijianchen98/AGIN"><img src="https://img.shields.io/badge/Database-Release-green"></a>
     <a href="https://github.com/zijianchen98/AGIN"><img src="https://img.shields.io/badge/Awesome-AGIN-orange"/></a>
 </div>
@@ -76,4 +77,14 @@ Please feel free to cite our paper if you use the AGIN database in your research
   journal={arXiv preprint arXiv:2312.05476},
   year={2023}
 }
+@article{chen2024study,
+  author={Chen, Zijian and Sun, Wei and Wu, Haoning and Zhang, Zicheng and Jia, Jun and Huang, Ru and Min, Xiongkuo and Zhai, Guangtao and Zhang, Wenjun},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Study of Subjective and Objective Naturalness Assessment of AI-Generated Images}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={AI-generated images;image naturalness assessment;image quality assessment;dataset},
+  doi={10.1109/TCSVT.2024.3509032}}
 ```
