@@ -19,20 +19,21 @@ _Do AI-generated Images look natural?_
     <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=wth-VbMAAAAJ" target="_blank">Haoning Wu</a><sup>2</sup>,
     <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=QICTEckAAAAJ" target="_blank">Zicheng Zhang</a><sup>1</sup>,
     <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=QICTEckAAAAJ" target="_blank">Jun Jia</a><sup>1</sup>,
+    <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=QICTEckAAAAJ" target="_blank">Ru Huang</a><sup>3</sup>,
     <a href="https://minxiongkuo.github.io/" target="_blank">Xiongkuo Min</a><sup>1</sup>,
     <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=24&infoid=66&flag=66" target="_blank">Guangtao Zhai</a><sup>1*</sup>,
     <a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=14&infoid=66&flag=66" target="_blank">Wenjun Zhang</a><sup>1</sup>
 </div>
 
 <div>
-  <sup>1</sup>Shanghai Jiao Tong University, <sup>2</sup>Nanyang Technological University
+  <sup>1</sup>Shanghai Jiao Tong University, <sup>2</sup>Nanyang Technological University, <sup>3</sup>East China University of Science and Technology, 
 </div>   
 
 <div>
 <sup>*</sup>Corresponding author. 
    </div>
 
-<a href="https://arxiv.org/abs/2312.05476"><strong>Paper</strong></a>
+<a href="https://ieeexplore.ieee.org/document/10771738"><strong>Paper</strong></a>
 
 <div style="width: 80%; text-align:center; margin:auto;">
 <img style="width:100%" src="intro.jpg"></div>
