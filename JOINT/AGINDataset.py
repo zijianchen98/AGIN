@@ -130,7 +130,7 @@ def accuracy(outputs, labels):
 
 
 def binary_acc(outputs, labels):
-    preds = torch.round(torch.sigmoid(outputs))  # 四舍五入
+    preds = torch.round(torch.sigmoid(outputs))  
     correct = torch.eq(preds, labels).float()
     acc = correct.sum() / len(correct)
     return acc
