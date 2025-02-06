@@ -90,6 +90,6 @@ Please feel free to cite our paper if you use the AGIN database in your research
   doi={10.1109/TCSVT.2024.3509032}}
 ```
 
-## Ackonwledgement
+## Acknowledgement
 
 We thank the authors in paper ["Perceptual artifacts localization for inpainting"](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Perceptual_Artifacts_Localization_for_Image_Synthesis_Tasks_ICCV_2023_paper.pdf), which enables us to localize the artifacts in AI-generated images.
