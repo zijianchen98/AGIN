@@ -30,7 +30,7 @@ _Do AI-generated Images look natural?_
 </div>   
 
 <div>
-<sup>*</sup>Corresponding author. 
+<sup>*</sup>Corresponding authors. 
    </div>
 
 <a href="https://ieeexplore.ieee.org/document/10771738"><strong>Paper</strong></a>
@@ -59,6 +59,41 @@ OneDrive and Baidu Netdisk are available now!
 * OneDrive: [downloading link](https://1drv.ms/u/c/0c2191cb01cbf002/EQLwywHLkSEggAzSCQAAAAABnn9ICRkAnM9YuSRtAWoDLQ?e=Jidlia)
 * Baidu Netdisk: [downloading link](https://pan.baidu.com/s/1DWZEMH6fPndaD9UhJbylMQ) (password: riha)
 
+## Calculate the Naturalness of your AIGI
+
+### Environments
+- Requirements:
+```
+torch(>=2.1.0), torchvision, pandas, ptflops, numpy, Pillow
+```
+- Create a new environment
+```
+conda create -n JOINT python=3.11
+conda activate JOINT 
+conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
+pip install pandas ptflops numpy
+```
+
+Detect the regions containing artifacts and generate the partitioned patch:
+```shell
+git clone https://github.com/zijianchen98/AGIN.git
+cd JOINT
+```
+- put the evaluated image into `demo` folder
+- Download the [checkpoint](https://1drv.ms/u/c/0c2191cb01cbf002/ER4v2QYUrFBEgeVpUVv5G0kB6pjC4MAHuRN22nRghd3bMQ?e=xBbYUb) for artifacts detection and put it into `../tools/PAL4VST-main/deployment/pal4vst/swin-large_upernet_unified_512x512/`
+
+```shell
+cd utils
+python patch_partition.py
+```
+
+Use [JOINT](https://github.com/zijianchen98/AGIN) to automatically evaluate the naturalness of AI-generated images:
+
+```shell
+python test_single_image.py --model_path ./savedir/JOINT_2024.pth --model JOINT --image_path ./demo/CoCosNet_23.png --resize 384 --crop_size 224 --gpu_ids 0
+```
+
+Please download the provided trained [model](https://1drv.ms/u/c/0c2191cb01cbf002/Ec_lncCxGZZCnjocT40-sn0B5Srg0zFn6H-95EopvxJIzQ?e=taiT9R) into the `savedir` folder before execute the above command
 
 ## Collecting AI-generated Images
 The adopted image generation methods and related works are listed in another repository [Awesome-AI-Generated-Image-Tasks](https://github.com/zijianchen98/Awesome-AI-Generated-Image-Tasks)
@@ -92,4 +127,4 @@ Please feel free to cite our paper if you use the AGIN database in your research
 
 ## Acknowledgement
 
-We thank the authors in paper ["Perceptual artifacts localization for inpainting"](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Perceptual_Artifacts_Localization_for_Image_Synthesis_Tasks_ICCV_2023_paper.pdf), which enables us to localize the artifacts in AI-generated images.
+We thank the authors in paper ["Perceptual Artifacts Localization for Image Synthesis Tasks"](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Perceptual_Artifacts_Localization_for_Image_Synthesis_Tasks_ICCV_2023_paper.pdf), which enables us to localize the artifacts in AI-generated images.
