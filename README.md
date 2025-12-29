@@ -80,7 +80,7 @@ git clone https://github.com/zijianchen98/AGIN.git
 cd JOINT
 ```
 - put the evaluated image into `demo` folder
-- Download the [checkpoint](https://1drv.ms/u/c/0c2191cb01cbf002/ER4v2QYUrFBEgeVpUVv5G0kB6pjC4MAHuRN22nRghd3bMQ?e=xBbYUb) for artifacts detection and put it into `../tools/PAL4VST-main/deployment/pal4vst/swin-large_upernet_unified_512x512/`
+- Download the [checkpoint](https://pan.sjtu.edu.cn/web/share/2f767ea67e14ddbb491476742a6158f8) (code: ubaj) for artifacts detection and put it into `../tools/PAL4VST-main/deployment/pal4vst/swin-large_upernet_unified_512x512/`
 
 ```shell
 cd utils
