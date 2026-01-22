@@ -93,7 +93,8 @@ Use [JOINT](https://github.com/zijianchen98/AGIN) to automatically evaluate the 
 python test_single_image.py --model_path ./savedir/JOINT_2024.pth --model JOINT --image_path ./demo/CoCosNet_23.png --resize 384 --crop_size 224 --gpu_ids 0
 ```
 
-Please download the provided trained [model](https://1drv.ms/u/c/0c2191cb01cbf002/Ec_lncCxGZZCnjocT40-sn0B5Srg0zFn6H-95EopvxJIzQ?e=taiT9R) into the `savedir` folder before executing the above command
+Please download the provided trained [model](https://1drv.ms/u/c/0c2191cb01cbf002/Ec_lncCxGZZCnjocT40-sn0B5Srg0zFn6H-95EopvxJIzQ?e=taiT9R) into the `savedir` folder before executing the above command.
+
 Additional download link for [JOINT_2024.pth](https://pan.sjtu.edu.cn/web/share/aca15cfb5b966a6207d2ad2a4ae40ce0) with Extraction code: kjsx
 
 ## Collecting AI-generated Images
