@@ -95,7 +95,7 @@ python test_single_image.py --model_path ./savedir/JOINT_2024.pth --model JOINT 
 
 Please download the provided trained [model](https://1drv.ms/u/c/0c2191cb01cbf002/Ec_lncCxGZZCnjocT40-sn0B5Srg0zFn6H-95EopvxJIzQ?e=taiT9R) into the `savedir` folder before executing the above command.
 
-Additional download link for [JOINT_2024.pth](https://pan.sjtu.edu.cn/web/share/aca15cfb5b966a6207d2ad2a4ae40ce0) with Extraction code: kjsx
+Additional download link for [JOINT_2024.pth](https://pan.sjtu.edu.cn/web/share/76c43e0b958bb31d8c67c2503ef0ff00) with Extraction code: jfsf
 
 ## Collecting AI-generated Images
 The adopted image generation methods and related works are listed in another repository [Awesome-AI-Generated-Image-Tasks](https://github.com/zijianchen98/Awesome-AI-Generated-Image-Tasks)
