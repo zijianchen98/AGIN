@@ -56,7 +56,7 @@ The proposed AGIN includes two perspectives for naturalness assessment: technica
 ## Database Downloads
 OneDrive and Baidu Netdisk are available now!
 
-* OneDrive: [downloading link](https://1drv.ms/u/c/0c2191cb01cbf002/EQLwywHLkSEggAzSCQAAAAABnn9ICRkAnM9YuSRtAWoDLQ?e=Jidlia)
+* SJTU Netdisk: [downloading link](https://pan.sjtu.edu.cn/web/share/7dccbaf5cdb5f4412707a4dfc8f584f3) (password: vsg6)
 * Baidu Netdisk: [downloading link](https://pan.baidu.com/s/1DWZEMH6fPndaD9UhJbylMQ) (password: riha)
 
 ## Calculate the Naturalness of your AIGI
